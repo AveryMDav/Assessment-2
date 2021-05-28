@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = 'Software that allows a individual to create, track and upload changes to files'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = 'A website for hosting git repositories'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+const init = {
+    description: 'Creates an empty repository',
+    code: 'git init'
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+const clone = {
+    description: 'creates a copy of a repository into a new directory',
+    code: 'git clone (repository you are cloning)'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+const status = {
+    description: 'Shows you the state of the current working repository',
+    code: 'git status'
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+const add = {
+    description: 'Sets up the repository you are working on to be committed',
+    code: 'git add (directory or file you want to add)'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,10 @@
 
 //CODE HERE
 
+const commit = {
+    description: 'Records any changes made to the current working repository (after they have been added)',
+    code: 'git commit (message)'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +103,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: 'Sends the respository to specified location',
+    code: 'git push (specified location))'
+}

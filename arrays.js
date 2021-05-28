@@ -50,9 +50,7 @@ function bigOrSmall(arr){
       answers.push('small')
     }
   }
-  return console.log(answers)
+  return answers
 }
 
 let array = [58,101,582,22,11,13,704,808]
-
-bigOrSmall(array)

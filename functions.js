@@ -8,7 +8,7 @@
 //CODE HERE
 
 function sum(num1,num2){
-  console.log(num1 + num2)
+  return num1 + num2
 }
 
 //////////////////PROBLEM 2////////////////////
@@ -23,9 +23,9 @@ function sum(num1,num2){
 
 function greaterThanFive(number){
   if(number > 5){
-    console.log(true)
+    return true
   }else{
-    console.log(false)
+    return false
   }
 }
 
@@ -41,9 +41,9 @@ function greaterThanFive(number){
 
 function findZWords(word){
   if(word.startsWith('Z')){
-    console.log('the name begins with Z')
+    return 'the name begins with Z'
   } else {
-    console.log('the name does not begin with Z')
+    return 'the name does not begin with Z'
   }
 }
 
@@ -57,5 +57,5 @@ function findZWords(word){
 //CODE HERE
 
 function iLove(name,love){
-  console.log(`${name} loves ${love}`)
+  return (`${name} loves ${love}`)
 }
